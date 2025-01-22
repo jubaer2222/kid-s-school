@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1160px;
+    margin: 0 auto;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.navbar .nav-1{
+    display: flex;
+    align-items: center
+    
+}
+.navbar .nav-anchor{
+    width: 309px;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+/* Banner Section */
+
+.banner{
+    display: flex;
+    align-items: center;
+}
+/* standard curriculum */
+.curriculum-box{
+    display: flex;
+    justify-content: space-between;
+}
+.all-currriculum-box{
+  background-color: rgb(238, 132, 3);
+  gap: 20px;
+  width: 293px;
+  text-align: center;
+
+}
