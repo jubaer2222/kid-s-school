@@ -104,6 +104,9 @@
     border: none;
 
 }
+.navbar button:hover{
+    background-color: rgb(243, 138, 0);
+}
 
 
 /* Banner Section */
@@ -112,7 +115,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
+
 
 .banner .banner-text h3 {
     font-family: Quicksand;
@@ -346,15 +351,24 @@
     text-align: center;
 }
 
+
+
+
 .icon {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 60px;
     gap: 20px;
+    
 
 }
-
+ .icon button {
+    border: none;
+    cursor: pointer;
+    background: none;
+    
+ }
 .icon img {
 
 
@@ -362,10 +376,40 @@
     height: 24px;
     border-radius: 30px;
     background: rgb(254, 163, 1);
-
-    position: relative;
     padding: 18px;
 
-
-
+    position: relative;
 }
+.hide{
+    /* display: none; */
+}
+    
+
+ /* RESPONSIVE WEBSITE */
+
+ @media screen and (max-width:576px) {
+   /* For modern browsers */
+
+  
+     .container{
+       margin-right: 10px;
+       margin-left: 10px;
+     
+     }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner .banner-img{
+        max-width: 100%;  
+    }
+   
+    .banner .banner-text{
+        text-align: center;
+    }
+    .curriculum-box{
+        flex-direction: column;
+    }
+    .curriculum-box{
+        gap: 12px;
+    }
+ }
