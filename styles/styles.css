@@ -10,38 +10,362 @@
     margin: 0 auto;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;
-    justify-content:space-between;
+    justify-content: space-between;
+    margin-top: 20px;
 }
-.navbar .nav-1{
+
+.navbar .nav-1 {
     display: flex;
-    align-items: center
-    
+    align-items: center;
+    gap: 12px;
 }
-.navbar .nav-anchor{
+
+.navbar .nav-1 h3 {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+
+.navbar .nav-anchor {
     width: 309px;
     display: flex;
-
     justify-content: space-between;
+
 }
+
+.navbar .nav-anchor a {
+    text-decoration: none;
+}
+
+.navbar .nav-anchor .a-1 {
+    color: rgb(254, 163, 1);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar .nav-anchor .a-2 {
+    color: rgb(1, 172, 253);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar .nav-anchor .a-3 {
+    color: rgb(5, 212, 223);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar .nav-anchor .a-4 {
+    color: rgb(93, 88, 239);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.navbar button {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 12px;
+
+    /* Orange */
+    background: rgb(254, 163, 1);
+    width: 197px;
+
+    height: 50px;
+    text-align: center;
+    border: none;
+
+}
+
 
 /* Banner Section */
 
-.banner{
+.banner {
     display: flex;
     align-items: center;
-}
-/* standard curriculum */
-.curriculum-box{
-    display: flex;
     justify-content: space-between;
 }
-.all-currriculum-box{
-  background-color: rgb(238, 132, 3);
-  gap: 20px;
-  width: 293px;
-  text-align: center;
+
+.banner .banner-text h3 {
+    font-family: Quicksand;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner .banner-text .sp-1 {
+    color: rgb(254, 163, 1);
+}
+
+.banner .banner-text .sp-2 {
+    color: rgb(1, 172, 253);
+}
+
+.banner .banner-text p {
+    color: rgb(17, 17, 17);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.banner .banner-text button {
+    color: rgb(255, 255, 255);
+    font-family: Quicksand;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    border-radius: 12px;
+    background: rgb(17, 17, 17);
+    padding: 10px;
+    width: 197px;
+    height: 50px;
+    text-align: center;
+    border: none;
+}
+
+.banner .banner-text button:hover {
+    background-color: rgb(75, 33, 33);
+    color: rgb(155, 124, 204);
+}
+
+/* standard curriculum */
+.standard-curriculum {
+    margin-bottom: 80px;
+    background-image: url(/assets/bg.png);
+    background-position: center;
+    background-size: cover;
+
+    height: 804px;
+    /* background-color: aqua; */
+
+}
+
+.standard-curriculum h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    margin-bottom: 70px;
+    color: rgb(0, 0, 0);
+    font-family: Quicksand;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 57.5px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.curriculum-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.all-currriculum-box {
+
+    height: 440px;
+    width: 340px;
+    text-align: center;
+
+}
+
+.all-currriculum-box h4 {
+    color: rgb(32, 32, 32);
+    font-family: Quicksand;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30.65px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.all-currriculum-box p {
+    color: rgb(128, 128, 128);
+    font-family: Raleway;
+    font-size: 15.09px;
+    font-weight: 500;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.all-currriculum-box button {
+    border: none;
+    background: none;
+}
+
+.all-currriculum-box button:hover {
+    color: rgb(226, 37, 154);
+}
+
+.kinder-box {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(222, 245, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg,
+            rgb(222, 245, 255),
+            rgba(255, 255, 255, 0) 40%),
+        rgb(255, 255, 255);
+
+}
+
+.kinder-box img {
+    margin-top: 43px;
+    margin-bottom: 22px;
+
+}
+
+.kinder-box h4 {
+    margin-bottom: 23px;
+
+}
+
+.kinder-box p {
+    margin: 23px;
+}
+
+.kinder-btn {
+    color: rgb(100, 200, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.middle-box {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(255, 244, 220);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg,
+            rgb(255, 244, 220),
+            rgba(255, 255, 255, 0) 40%),
+        rgb(255, 255, 255);
+}
+
+.middle-box img {
+    margin-top: 43px;
+    margin-bottom: 29px;
+}
+
+.middle-box h4 {
+    margin-bottom: 23px;
+}
+
+.middle-box p {
+    margin: 23px;
+}
+
+.middle-btn {
+    color: rgb(240, 170, 0);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.elementary-box {
+    box-sizing: border-box;
+    border: 0.94px solid rgb(242, 232, 255);
+    border-radius: 18.86px;
+
+    box-shadow: inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+    background: linear-gradient(180.00deg,
+            rgb(238, 225, 255),
+            rgba(255, 255, 255, 0) 40%),
+        rgb(255, 255, 255);
+}
+
+.elementary-box img {
+    margin-top: 43px;
+    margin-bottom: 22px;
+}
+
+.elementary-box h4 {
+    margin-bottom: 23px;
+}
+
+.elementary-box p {
+    margin: 23px;
+}
+
+.elementary-btn {
+    color: rgb(135, 0, 255);
+    font-family: Quicksand;
+    font-size: 15.09px;
+    font-weight: 700;
+    line-height: 28.3px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    gap: 20px;
+
+}
+
+.icon img {
+
+
+    width: 15.38px;
+    height: 24px;
+    border-radius: 30px;
+    background: rgb(254, 163, 1);
+
+    position: relative;
+    padding: 18px;
+
+
 
 }
