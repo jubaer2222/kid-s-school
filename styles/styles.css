@@ -78,6 +78,10 @@ cursor: pointer;
 .bar{
     display: none;
 }
+.nav-hr{
+    
+    display: none;
+}
 
 
 /*                             Banner Section                           */
@@ -623,6 +627,11 @@ cursor: pointer;
         justify-content: center;
         align-items: center;
         font-size: 23px;
+    }
+    .nav-hr{
+       
+        border-color: gold;
+        display: block;
     }
 
 
