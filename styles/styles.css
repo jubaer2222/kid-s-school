@@ -535,6 +535,75 @@ cursor: pointer;
     color: #f1d4d4;
 }
 
+/*  footer */
+
+.bg-footer {
+    background: rgb(1, 172, 253);
+}
+
+
+.footer-section {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+
+.footer-logo {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-logo-all p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 400;
+    width: 400px;
+    margin-top: 40px;
+}
+
+.footer-img {
+    color: rgb(255, 255, 255);
+    height: 100px;
+}
+
+.footer-logo h2 {
+    color: rgb(255, 255, 255);
+    font-size: 42.14px;
+    font-weight: 700;
+}
+
+
+.about {
+    margin-left: 160px;
+}
+
+.about h2 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+
+.about p {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+
+.keep-touch {
+    margin-left: 160px;
+}
+
+.keep-touch h2 {
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 32px;
+}
+
 
 
 
