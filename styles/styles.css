@@ -152,7 +152,7 @@ cursor: pointer;
 
 .standard-curriculum {
     margin-bottom: 70px;
-    background-image: url(/assets/bg.png);
+    background-image: url(../assets/bg.png);
     background-position: center;
     background-size: cover;
 
